@@ -1,0 +1,50 @@
+.container{
+  width: 40%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  background-color: #000;
+  color: antiquewhite;
+  
+
+}
+
+.button{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  width: 100%;
+  
+
+}
+.calculate-result{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+input{
+  width: 100%;
+  display: block;
+  padding: 10px;
+}
+
+button{
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 40%;
+}
+
+.sign{
+  background-color: yellow;
+}
+
+.btn-danger{
+  background-color: red;
+}
